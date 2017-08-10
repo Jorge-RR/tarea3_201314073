@@ -24,7 +24,9 @@ public class Tarea3_201314073 {
         System.out.println("201314073");
 
  String []cont= new String[5];
+ 
     Scanner lector = new Scanner (System.in);
+    
         System.out.println("1. usuario");
         System.out.println("2. palabras palíndromas");
         System.out.println("3.salir");
@@ -91,10 +93,7 @@ switch(menprincipal){
                 }
                 if (elegir==4){
                  
-                    
-                  Scanner lector3=new Scanner(System.in);
-                 menprincipal =lector3.nextInt();
-                
+               
                 }
                 if(elegir==5){
                 System.exit(0); 
